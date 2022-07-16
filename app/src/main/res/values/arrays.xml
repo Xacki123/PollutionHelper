@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Test">
+        <item>Мусор тут</item>
+        <item>Мусор не тут</item>
+        <item>Здесь всегда мусор</item>
+        <item>Мусор тут</item>
+        <item>Мусор не тут</item>
+        <item>Здесь всегда мусор</item>
+        <item>Мусор тут</item>
+        <item>Мусор не тут</item>
+        <item>Здесь всегда мусор</item>
+        <item>Мусор тут</item>
+        <item>Мусор не тут</item>
+        <item>Здесь всегда мусор</item>
+    </string-array>
+    <string-array name="Avatar">
+        <item>Бабушка</item>
+        <item>Мальчик</item>
+        <item>Девочка</item>
+        <item>Кот</item>
+        <item>Аватарка</item>
+    </string-array>
+    <string-array name="Adres">
+        <item>Мусор тут</item>
+        <item>Мусор не тут</item>
+        <item>Здесь всегда мусор</item>
+    </string-array>
+</resources>

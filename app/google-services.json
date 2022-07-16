@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588124925833",
+    "project_id": "pollutionhelper",
+    "storage_bucket": "pollutionhelper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588124925833:android:b145b7b50fe2c60ac4bb58",
+        "android_client_info": {
+          "package_name": "com.example.main_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588124925833-ljsadiglm2l8psdrtqd1s5efof0hfu4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcW8sWQpD8cRURPE-tmPdithPQRbtDvJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588124925833-ljsadiglm2l8psdrtqd1s5efof0hfu4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

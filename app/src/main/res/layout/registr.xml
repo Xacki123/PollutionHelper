@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BG">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/Head"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoText="true"
+            android:gravity="center"
+            android:shadowColor="@color/textC"
+            android:text="@string/page3"
+            android:textColor="@color/textC"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="144dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+        app:counterOverflowTextColor="@color/textC"
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:errorTextAppearance="@style/MyErrorText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Почта"
+            android:backgroundTint="@color/textC"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            app:boxStrokeColor="@color/textC"
+            app:hintTextColor="@color/textC"
+            android:textSize="16sp"
+            android:theme="@style/MyEditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout5"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="84dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+        app:counterOverflowTextColor="@color/textC"
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
+        app:errorTextAppearance="@style/MyErrorText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"
+            android:backgroundTint="@color/textC"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            app:boxStrokeColor="@color/textC"
+            app:hintTextColor="@color/textC"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:theme="@style/MyEditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:background="@color/Head1"
+        android:onClick="registr"
+        android:text="Зарегистрировать"
+        android:textColor="@color/textC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

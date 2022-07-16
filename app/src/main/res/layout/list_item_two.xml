@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/massege_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="1"
+        android:textColor="@color/textC"
+
+        android:textStyle="normal|bold"></TextView>
+
+    <TextView
+        android:id="@+id/massege_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="2"
+        android:textColor="@color/textC"></TextView>
+
+    <TextView
+        android:id="@+id/massege_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/massege_user"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:text="3"
+        android:textColor="@color/textC"
+        android:textSize="18sp"></TextView>
+</RelativeLayout>

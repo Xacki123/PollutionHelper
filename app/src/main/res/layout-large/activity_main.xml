@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Head"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="504dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button2"
+        android:padding="0dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/page1"
+        android:textColor="@color/Head1"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button1"
+        android:onClick="goLogin"
+        android:text="Войти"
+        android:textColor="@color/textC"
+        android:textSize="27dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/bReg"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button1"
+        android:onClick="goRegistr"
+        android:text="Регистрация"
+        android:textColor="@color/textC"
+        android:textSize="27dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bLogin" />
+
+    <Button
+        android:id="@+id/bNAft"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button1"
+        android:onClick="goB"
+        android:text="Войти без авторизации"
+        android:textColor="@color/textC"
+        android:textSize="27dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bReg" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button1"
+        android:onClick="goStart"
+        android:text="Начать"
+        android:textColor="@color/textC"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tStart" />
+
+    <TextView
+        android:id="@+id/tStart"
+        android:layout_width="450dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/textC"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/bExit"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button1"
+        android:onClick="goExit"
+        android:text="ВЫХОД"
+        android:textColor="@color/textC"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bStart" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Для связи PollutionHelper@mail.ru"
+        android:textColor="@color/textC"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.290625" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/drawable/button1.xml" value="0.2875" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/drawable/button2.xml" value="0.2814814814814815" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/drawable/ic_launcher_background.xml" value="0.290625" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/activity_maps.xml" value="0.25083333333333335" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/add.xml" value="0.536" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/info.xml" value="0.25083333333333335" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/info_point.xml" value="0.25083333333333335" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/info_user.xml" value="0.4" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/list_item.xml" value="0.25083333333333335" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/login.xml" value="0.35625" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/registr.xml" value="0.35625" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/registr2.xml" value="0.35625" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-large/spiner_item.xml" value="0.2375" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/activity_main.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/activity_maps.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/add.xml" value="0.264" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/info.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/info_point.xml" value="0.264" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/info_user.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/list_item.xml" value="0.25083333333333335" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/login.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/registr.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/registr2.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout-normal/spiner_item.xml" value="0.2375" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/activity_maps.xml" value="0.264" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/add.xml" value="0.264" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/info.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/info_point.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/info_user.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/list_item.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/list_item_two.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/registr.xml" value="0.264" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/registr2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/repoint.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/spiner_item.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/layout/test.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.290625" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/Main_map/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.290625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

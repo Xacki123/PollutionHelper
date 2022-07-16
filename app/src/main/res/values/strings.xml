@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PH</string>
+    <string name="page1">Добро пожаловать!</string>
+    <string name="page2">Вход</string>
+    <string name="page3">Регистрация</string>
+    <string name="page4">Добавление</string>
+    <string name="page5">Изменение</string>
+    <string name="page6">Изменение точки</string>
+    <string name="test">Лента</string>
+    <string name="test_click">Опасный мусор</string>
+    <string name="test_name">Name</string>
+    <string name="email">nonuser@gmail.ru</string>
+    <string name="password">000000</string>
+
+    <string name="InHed">Мои отметки</string>
+    <string name="Описание">Сборный пункт батареек находится в магазине лента по адресу Бухарестская ул., 43к2, Санкт-Петербург, 192071</string>
+    <string name="Адрес">Бухарестская ул., 43к2, Санкт-Петербург</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

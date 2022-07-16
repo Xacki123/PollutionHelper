@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BG">
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout11"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+        android:layout_gravity="center"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+
+
+        app:counterOverflowTextColor="@color/textC"
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/textC"
+            android:hint="Название"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            android:textSize="16sp"
+            android:theme="@style/MyEditText"
+            app:boxStrokeColor="@color/textC"
+            app:hintTextColor="@color/textC" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/Head"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoText="true"
+            android:gravity="center"
+            android:shadowColor="@color/textC"
+            android:text="@string/page6"
+            android:textColor="@color/textC"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout12"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+        android:layout_gravity="center"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+
+
+        app:counterOverflowTextColor="@color/textC"
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout11"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/Rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/textC"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:hint="Виды"
+            android:longClickable="false"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            android:textSize="16sp"
+            android:theme="@style/MyEditText"
+            app:boxStrokeColor="@color/textC"
+            app:hintTextColor="@color/textC" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout13"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+        android:layout_gravity="center"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+
+
+        app:counterOverflowTextColor="@color/textC"
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout12"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/Adres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/textC"
+            android:hint="Адрес"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            android:textSize="16sp"
+            android:theme="@style/MyEditText"
+            app:boxStrokeColor="@color/textC"
+            app:hintTextColor="@color/textC" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:onClick="imgRePlass"
+        android:src="@drawable/avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+
+        app:counterOverflowTextColor="@color/textC"
+
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout13"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/Opis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/textC"
+            android:hint="Описание"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            android:textSize="16sp"
+            android:theme="@style/MyEditText"
+            app:boxStrokeColor="@color/textC"
+            app:hintTextColor="@color/textC" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:background="@color/Head1"
+        android:onClick="savePoint"
+        android:text="Сохранить"
+        android:textColor="@color/textC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BG">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/Head1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/page4"
+            android:textColor="@color/textC"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgAdd"
+        android:layout_width="131dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:onClick="PlasImg"
+        android:src="@drawable/phon3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout7"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+        app:counterOverflowTextColor="@color/textC"
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        app:errorTextAppearance="@style/MyErrorText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Name89"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/textC"
+            android:hint="Название"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            android:textSize="16sp"
+            android:theme="@style/MyEditText"
+            app:boxStrokeColor="@color/textC"
+            app:endIconTint="@color/textC"
+            app:hintTextColor="@color/textC" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Стекло"
+                android:textColor="@color/textC"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Макулатура"
+                android:textColor="@color/textC"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Одежда"
+                android:textColor="@color/textC"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пластик"
+                android:textColor="@color/textC"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="none"
+                android:text="Батарейки"
+                android:textColor="@color/textC"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Бытовая техника"
+                android:textColor="@color/textC"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Люминисцентные лампы"
+                android:textColor="@color/textC"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Металлолом"
+                android:textColor="@color/textC"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+        app:counterOverflowTextColor="@color/textC"
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Adres89"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/textC"
+            android:hint="Адрес"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            android:textSize="16sp"
+            android:theme="@style/MyEditText"
+            app:boxStrokeColor="@color/textC"
+            app:hintTextColor="@color/textC" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/textC"
+        app:boxStrokeColor="@color/textC"
+        app:counterOverflowTextColor="@color/textC"
+        app:counterTextColor="@color/textC"
+        app:endIconTint="@color/textC"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorTextColor="@color/textC"
+        app:helperTextTextColor="@color/textC"
+        app:hintTextColor="@color/textC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+        app:placeholderTextColor="@color/textC"
+        app:prefixTextColor="@color/textC"
+        app:suffixTextColor="@color/textC">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Op89"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/textC"
+            android:hint="Описание"
+            android:textColor="@color/textC"
+            android:textColorHighlight="@color/textC"
+            android:textColorHint="@color/textC"
+            android:textColorLink="@color/textC"
+            android:textSize="16sp"
+            android:theme="@style/MyEditText"
+            app:boxStrokeColor="@color/textC"
+            app:hintTextColor="@color/textC" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/Head"
+        android:onClick="Plas"
+        android:text="Добавить"
+        android:textColor="@color/textC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
